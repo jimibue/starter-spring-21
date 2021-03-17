@@ -5,7 +5,7 @@ import Fade from './Fade'
 import Spinner from './Spinner'
 
 function LoadDataDemo(props) {
-  let url = props.err ? 'https://reqres.in/ap/users?delay=1':  'https://reqres.in/api/users?delay=1'
+  let url = props.err ? 'https://reqres.in/ap/users?delay=3':  'https://reqres.in/api/users?delay=3'
   const [{ data, loading, error }, refetch] = useAxios(url)
 
   if (loading) return <Button loading></Button>

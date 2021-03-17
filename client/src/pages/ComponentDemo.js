@@ -6,11 +6,19 @@ import CardContainer from '../components/CardContainer'
 import FormattedMessage from '../components/FormattedMessage'
 import LoadDataDemo from '../components/LoadDataDemo'
 import RegisterFormDemo from '../components/RegisterFormDemo'
+import Demo from './Demo'
+import OnMount1 from './OnMount1'
+import OnMountTest from './OnMountTest'
 
 const ComponentDemo = () => {
     return (
         <>
             <h1>My components</h1>
+            <Card header='Demo'>
+                <Demo/>
+                <OnMountTest />
+                <OnMount1 />
+            </Card>
             <Card header='Load Data Demo'>
                 <LoadDataDemo />
                 <LoadDataDemo err/>
