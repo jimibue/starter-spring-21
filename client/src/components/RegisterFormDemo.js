@@ -26,7 +26,6 @@ function RegisterFormDemo() {
   console.log(errors);
   return (
     <Form onSubmit={handleSubmit(onSubmit)}>
-      <h1>Register</h1>
       <FormLabel>UserName</FormLabel>
       <input name="userName" defaultValue="test" ref={register} />
       <FormLabel>PassPhrase {errors.passphrase && (

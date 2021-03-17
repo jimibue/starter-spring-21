@@ -13,7 +13,6 @@ function App() {
   return (
     <>
     <NavBar />
-    <h1 style={{color: PRIMARY_COLOR }}>sdf</h1>
     <Container>
       <Switch>
         <Route exact path='/' component={Home} />
