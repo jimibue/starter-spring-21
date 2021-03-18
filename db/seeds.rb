@@ -29,10 +29,10 @@ puts "USER SIZE: #{User.all.length}"
 puts "GRADE SIZE: #{Grade.all.length}"
 
 # grab users skill
-puts "FIRSRT USER SKILLLZ: #{User.first.skills}"
+puts "FIRSRT USER SKILLs: #{User.first.skills}"
 
 
 # grab users firts skill grades
-puts "FIRSRT USER SKILLLZ: #{User.first.grades}"
+puts "FIRSRT USER Grades: #{User.first.grades}"
 
 
