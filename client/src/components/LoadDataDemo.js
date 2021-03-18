@@ -12,8 +12,6 @@ const LoadDataDemo = () => {
     },[])
     const getData = async()=>{
         try{
-        //   let res = await axios.get('https://jsonplaceholder.typicode.com/todos')
-        //   let res = await axios.get('https://reqres.in/api/users?delay=3')
           let res = await axios.get('https://reqres.in/ap/users?delay=3')
           setData(res.data.data ? res.data.data : res.data)
           setLoading(false)
