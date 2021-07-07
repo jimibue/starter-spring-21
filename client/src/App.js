@@ -21,16 +21,7 @@ function App() {
     <Container>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-
-        <Route exact path='/users' component={Users} />
-        <Route exact path='/users/:id' component={UserShow} />
-
-        <Route exact path='/grades' component={Grades} />
-
-        <Route exact path='/skills' component={Skills} />
-        <Route exact path='/skills/:id' component={SkillShow} />
-
+ 
         <Route exact path='/componentDemo' component={ComponentDemo} />
         
       </Switch>
